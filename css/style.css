@@ -1,0 +1,28 @@
+@font-face {
+    font-family: AlegreyaSansSC-Black;
+    src: url(/fonts/AlegreyaSansSC-Black.ttf);
+}
+html, body {
+    height: 100%;
+}
+
+.hero  {
+    height: 100vh;
+    min-height: 650px;
+    background: url(/images/web-ready/bg/hero.jpg) center center / cover no-repeat;
+}
+.header {
+    width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mail {
+   text-decoration: none; 
+   text-align: center;
+   font-size: 16px;
+   color: #212121;
+   
+}
